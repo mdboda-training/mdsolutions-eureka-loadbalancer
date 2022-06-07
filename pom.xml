@@ -8,10 +8,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mdsolutions</groupId>
-	<artifactId>mdsolutions-feign-Client </artifactId>
+	<artifactId>mdsolutions-feign-client-loadbalancer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mdsolutions-feign-Client </name>
-	<description>MDSolutions Feign Client Demo</description>
+	<name>mdsolutions-feign-client-loadbalancer</name>
+	<description>MDSolutions Feign Client Loadbalancer  Demo</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
