@@ -2,14 +2,14 @@ package com.mdsolutions;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableFeignClients
+@EnableEurekaServer
 @SpringBootApplication
-public class MdsolutionsFeignClientApplication {
+public class MdSolutoinsEurekaLoadBalancer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MdsolutionsFeignClientApplication.class, args);
+		SpringApplication.run(MdSolutoinsEurekaLoadBalancer.class, args);
 	}
 
 }
